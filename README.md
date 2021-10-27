@@ -38,4 +38,6 @@ conjointe.
 
 ![image 3](images/3.png)
 
+### Covariance et nuage de points
 
+![image 4](images/4.png)
