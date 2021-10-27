@@ -41,3 +41,10 @@ conjointe.
 ### Covariance et nuage de points
 
 ![image 4](images/4.png)
+
+## 2. Le coefficient de corrélation linéaire
+
+« de Pearson »
+
+![image 5](images/5.png)
+
