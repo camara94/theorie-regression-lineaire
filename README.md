@@ -145,3 +145,57 @@ df
 </table>
 </div>
 
+
+
+
+```python
+b1 = np.sum( df.x*df.y - len(df)*np.mean(df.x)*np.mean(df.y)) / (np.sum( df.x**2 - len(df)*np.mean(df.x)**2 ))
+```
+
+
+```python
+b0 = np.mean(df.y) - b1*np.mean(df.x)
+```
+
+
+```python
+b0
+```
+
+
+
+
+    0.00588235294117645
+
+
+
+
+```python
+my_model = lambda x: b1*x + b0
+```
+
+
+```python
+my_model(1)
+```
+
+
+
+
+    0.6705882352941176
+
+
+
+
+```python
+plt.plot(df.x, my_model(df.x))
+plt.scatter(df.x, df.y, c="r")
+```
+
+
+
+
+    <matplotlib.collections.PathCollection at 0x253f1d21af0>
+
+
+
