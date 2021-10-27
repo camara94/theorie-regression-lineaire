@@ -199,3 +199,56 @@ plt.scatter(df.x, df.y, c="r")
 
 
 
+![png](output_23_1.png)
+    
+
+
+
+```python
+residus = df.y - np.mean(my_model(df.x))
+residus
+```
+
+
+
+
+    0   -1.0
+    1   -1.0
+    2    0.0
+    3    0.0
+    4    2.0
+    Name: y, dtype: float64
+
+
+
+
+```python
+vr = np.mean(residus**2)
+residus
+```
+
+
+
+
+    0   -1.0
+    1   -1.0
+    2    0.0
+    3    0.0
+    4    2.0
+    Name: y, dtype: float64
+
+
+
+
+```python
+vt = np.sum((df.y - np.mean(df.y))**2 )
+vt
+```
+
+
+
+
+    6.0
+
+
+
