@@ -23,3 +23,9 @@ Clients identifiés par le modèle comme
 ayant peu de chance d’acheter seront
 exclu de la prochaine liste d’envoi.
 
+## La corrélation
+
+Statistique descriptive de la relation entre X et Y: variation
+conjointe.
+
+
