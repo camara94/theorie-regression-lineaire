@@ -34,4 +34,8 @@ conjointe.
 
 ![image 2](images/2.png)
 
+### Estimation pour la population:
+
+![image 3](images/3.png)
+
 
