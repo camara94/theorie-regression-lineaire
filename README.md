@@ -48,3 +48,8 @@ conjointe.
 
 ![image 5](images/5.png)
 
+## Modèle
+
+![image 6](images/6.png)
+
+![image 7](images/7.png)
