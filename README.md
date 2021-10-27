@@ -53,3 +53,10 @@ conjointe.
 ![image 6](images/6.png)
 
 ![image 7](images/7.png)
+
+### L’estimation des paramètres
+
+#### a? b?
+Méthode d’estimation: les moindres carrés:
+
+![image 8](images/8.png)
