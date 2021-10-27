@@ -60,3 +60,17 @@ conjointe.
 Méthode d’estimation: les moindres carrés:
 
 ![image 8](images/8.png)
+
+
+```python
+dict_ = {'x':[1, 2, 3, 4, 5], 'y': [1, 1, 2, 2, 4]}
+df = pd.DataFrame(dict_, dtype=np.float64)
+
+fn_carree = lambda x: x**2
+fn_prod = lambda x, y: x*y
+
+df['x_carree'] = np.vectorize(fn_carree)(df.x)
+df['y_carree'] = np.vectorize(fn_carree)(df.y)
+df['xy'] = np.vectorize(fn_prod)(df.y, df.x)
+df
+```
