@@ -28,4 +28,10 @@ exclu de la prochaine liste d’envoi.
 Statistique descriptive de la relation entre X et Y: variation
 conjointe.
 
+## 1. La covariance
+
+ ###  Dans l’échantillon:
+
+![image 2](images/2.png)
+
 
