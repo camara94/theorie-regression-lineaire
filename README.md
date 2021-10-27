@@ -252,3 +252,37 @@ vt
 
 
 
+
+```python
+ve = vt - vr
+```
+
+
+```python
+ve
+```
+
+
+
+
+    4.8
+
+
+
+
+```python
+F = (ve/1)/(vr/(len(df)-2))
+```
+
+
+```python
+F
+```
+
+
+
+
+    12.0
+
+
+
